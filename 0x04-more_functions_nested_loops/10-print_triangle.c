@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_triangle - check for a digit
- * @size : integer type
- * Return:void
+ * print_triangle - prints of triangle.
+ * @size : number of lines.
+ * Return: no return
  */
 void print_triangle(int size)
 {
 	int i, j;
 
-	for (1 = 0; i < size; i++)
+	for (ii = 0; i < size; i++)
 	{
 		for (j = 1; j < (size - i); j++)
 			_putchar(' ');
@@ -18,5 +18,6 @@ void print_triangle(int size)
 		if (i < (size - 1)
 			_putchar('\n');
 		}
+		_putchar('\n');
 
 }
